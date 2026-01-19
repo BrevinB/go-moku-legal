@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>go!moku - Legal</title>
+    <style>
+        :root {
+            --bg-color: #faf8f5;
+            --text-color: #3d3a35;
+            --accent-color: #8b7355;
+            --border-color: #e5e0d8;
+            --gold: #ebc04e;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(180deg, #faf8f5 0%, #f0ebe3 100%);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 24px;
+            background: linear-gradient(145deg, #d4a84b 0%, #b8923f 100%);
+            border-radius: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 24px rgba(139, 115, 85, 0.25);
+        }
+        .logo-text {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 8px;
+            color: var(--accent-color);
+        }
+        .tagline {
+            color: #888;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+        .card {
+            background: white;
+            padding: 32px;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            margin-bottom: 24px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .link {
+            display: block;
+            padding: 18px 24px;
+            background: linear-gradient(135deg, #f8f6f3 0%, #f0ebe3 100%);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: all 0.2s ease;
+        }
+        .link:hover {
+            background: linear-gradient(135deg, #fff 0%, #f8f6f3 100%);
+            border-color: var(--accent-color);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(139, 115, 85, 0.15);
+        }
+        .link-icon {
+            margin-right: 10px;
+        }
+        .footer {
+            color: #aaa;
+            font-size: 0.85rem;
+        }
+        .footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        .app-store-badge {
+            margin-top: 20px;
+        }
+        .app-store-badge img {
+            height: 44px;
+        }
+        @media (max-width: 400px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            .logo {
+                width: 100px;
+                height: 100px;
+            }
+            .logo-text {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <span class="logo-text">五</span>
+        </div>
+        <h1>go!moku</h1>
+        <p class="tagline">The classic game of Five in a Row</p>
+
+        <div class="card">
+            <div class="links">
+                <a href="privacy-policy.html" class="link">
+                    <span class="link-icon">🔒</span>
+                    Privacy Policy
+                </a>
+                <a href="terms-of-service.html" class="link">
+                    <span class="link-icon">📜</span>
+                    Terms of Service
+                </a>
+                <a href="mailto:support@brevinb.co" class="link">
+                    <span class="link-icon">✉️</span>
+                    Contact Support
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 go!moku. All rights reserved.</p>
+            <!-- Uncomment when app is live on App Store -->
+            <!-- <div class="app-store-badge">
+                <a href="https://apps.apple.com/app/gomoku/id000000000">
+                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store">
+                </a>
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>
